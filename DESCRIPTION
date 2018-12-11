@@ -18,4 +18,4 @@ Description: A collection of R functions to supporting testing Stock Synthesis, 
 License: file LICENSE.md
 LazyLoad: yes
 URL: https://github.com/r4ss/SS_testing
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
