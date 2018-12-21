@@ -27,7 +27,8 @@ This can be helpful if the function is interrupted.}
 \item{verbose}{Return updates of function progress to the R console?}
 }
 \value{
-Doesn't yet return anything
+Returns table showing which directories had model run and which
+had errors like missing executable or Report.sso already present
 }
 \description{
 Loops over a vector of directories and iteratively runs SS in each one
@@ -42,7 +43,8 @@ run_SS_models(dirvec=dirvec)
 
 }
 \seealso{
-\code{\link{copy_SS_inputs}}
+\code{\link{copy_SS_inputs}},
+\code{\link{populate_multiple_folders}}
 }
 \author{
 Ian Taylor

@@ -3,3 +3,4 @@
 export(copy_SS_inputs)
 export(populate_multiple_folders)
 export(run_SS_models)
+import(r4ss)

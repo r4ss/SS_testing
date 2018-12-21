@@ -32,7 +32,8 @@ A value of NULL will skip copying the executable.}
 \item{verbose}{Return updates of function progress to the R console?}
 }
 \value{
-Doesn't return anything
+Returns table of results indicating which directories were
+successfully populated with the model input files and/or executables
 }
 \description{
 Creates a set of multiple folders and populate each with SS input files
