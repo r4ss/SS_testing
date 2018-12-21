@@ -1,21 +1,22 @@
-Package: SStesting
+Package: SSutils
 Type: Package
-Title: R code to support testing of Stock Synthesis
+Title: Utilities for working with Stock Synthesis
 Version: 1.0.0
-Date: 2018-08-03
-Author: Ian G. Taylor
-Maintainer: Ian G. Taylor <Ian.Taylor@noaa.gov>
+Date: 2018-12-20
+Authors@R: person("Ian", "Taylor", email = "Ian.Taylor@noaa.gov",
+  role = c("aut", "cre"))
 Depends:
     R (>= 3.3.0)
 Imports:
     r4ss
 Suggests: 
-Description: A collection of R functions to supporting testing Stock Synthesis, a
+Description: A collection of R functions to supporting testing
+    and working with Stock Synthesis, a
     fisheries stock assessment modeling platform written in ADMB by Dr. Richard
-    D.  Methot at the NOAA Northwest Fisheries Science Center. The functions
+    D. Methot at the NOAA Northwest Fisheries Science Center. The functions
     include tools for copying input and output files and comparing results between
     models. Depends on the r4ss package to parse content of model files.
 License: file LICENSE.md
 LazyLoad: yes
-URL: https://github.com/r4ss/SS_testing
+URL: https://github.com/r4ss/SSutils
 RoxygenNote: 6.1.0
