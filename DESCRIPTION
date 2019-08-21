@@ -19,4 +19,4 @@ Description: A collection of R functions to supporting testing
 License: file LICENSE.md
 LazyLoad: yes
 URL: https://github.com/r4ss/SSutils
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1

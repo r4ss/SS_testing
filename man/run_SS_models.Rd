@@ -6,7 +6,7 @@
 \usage{
 run_SS_models(dirvec = NULL, model = "ss", extras = "-nox",
   systemcmd = FALSE, skipfinished = TRUE, intern = FALSE,
-  verbose = TRUE)
+  verbose = TRUE, exe_in_path = FALSE)
 }
 \arguments{
 \item{dirvec}{List of directories containing the model files}
@@ -25,6 +25,9 @@ This can be helpful if the function is interrupted.}
 \item{intern}{Show output in the R console or save to a file?}
 
 \item{verbose}{Return updates of function progress to the R console?}
+
+\item{exe_in_path}{logical. If TRUE, will look for exe in the PATH. If FALSE,
+will look for exe in the model folders. Default = FALSE.}
 }
 \value{
 Returns table showing which directories had model run and which
