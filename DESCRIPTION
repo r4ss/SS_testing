@@ -8,7 +8,9 @@ Authors@R: person("Ian", "Taylor", email = "Ian.Taylor@noaa.gov",
 Depends:
     R (>= 3.3.0)
 Imports:
-    r4ss
+    r4ss,
+    furrr,
+    future
 Suggests: 
 Description: A collection of R functions to supporting testing
     and working with Stock Synthesis, a

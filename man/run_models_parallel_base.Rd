@@ -23,6 +23,8 @@ This can be helpful if the function is interrupted.}
 \item{extras}{Additional commands to use when running SS. Default = "-nox"
 will reduce the amount of command-line output.}
 
+\item{OS}{The operating system used. "Windows", "Mac", or "Linux".}
+
 \item{systemcmd}{Should R call SS using "system" function instead of "shell".
 This may be required when running R in Emacs. Default = FALSE.}
 
