@@ -8,7 +8,9 @@ Authors@R: person("Ian", "Taylor", email = "Ian.Taylor@noaa.gov",
 Depends:
     R (>= 3.3.0)
 Imports:
-    r4ss
+    r4ss,
+    furrr,
+    future
 Suggests: 
 Description: A collection of R functions to supporting testing
     and working with Stock Synthesis, a
@@ -19,4 +21,4 @@ Description: A collection of R functions to supporting testing
 License: file LICENSE.md
 LazyLoad: yes
 URL: https://github.com/r4ss/SSutils
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1

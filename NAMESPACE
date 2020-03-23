@@ -3,4 +3,8 @@
 export(copy_SS_inputs)
 export(populate_multiple_folders)
 export(run_SS_models)
+export(run_SS_models_parallel)
+export(run_models_parallel_base)
+import(future)
 import(r4ss)
+importFrom(furrr,future_map)

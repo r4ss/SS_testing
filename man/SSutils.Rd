@@ -17,6 +17,8 @@ a single model into a new folder
   \item \code{\link{populate_multiple_folders}}: run copy_SS_inputs
 over for a set of folders
   \item \code{\link{run_SS_models}}: run SS on each directory 
+  \item \code{\link{run_SS_models_parallel}}: run SS on each directory in 
+parallel using future and furrr (experimental)
 }
 }
 
