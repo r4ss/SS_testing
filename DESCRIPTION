@@ -12,6 +12,8 @@ Imports:
     furrr,
     future
 Suggests: 
+Remotes:
+    r4ss/r4ss@development
 Description: A collection of R functions to supporting testing
     and working with Stock Synthesis, a
     fisheries stock assessment modeling platform written in ADMB by Dr. Richard
